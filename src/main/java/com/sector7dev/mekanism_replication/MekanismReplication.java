@@ -1,4 +1,4 @@
-package com.sector7dev.mekanism_replicator;
+package com.sector7dev.mekanism_replication;
 
 import org.slf4j.Logger;
 
@@ -15,14 +15,14 @@ import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(MekanismReplicator.MOD_ID)
-public class MekanismReplicator {
-    public static final String MOD_ID = "mekanism_replicator";
+@Mod(MekanismReplication.MOD_ID)
+public class MekanismReplication {
+    public static final String MOD_ID = "mekanism_replication";
     public static final Logger LOGGER = LogUtils.getLogger();
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public MekanismReplicator(IEventBus modEventBus, ModContainer modContainer) {
+    public MekanismReplication(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
