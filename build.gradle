@@ -27,6 +27,10 @@ repositories {
         name "ModMaven"
         url "https://modmaven.dev"
     }
+
+    maven {
+        url "https://cursemaven.com"
+    }
 }
 
 base {
@@ -124,6 +128,8 @@ dependencies {
     implementation "mekanism:Mekanism:${minecraft_version}-${mekanism_version}:generators"
     runtimeOnly "mekanism:Mekanism:${minecraft_version}-${mekanism_version}:additions"
     runtimeOnly "mekanism:Mekanism:${minecraft_version}-${mekanism_version}:tools"
+    implementation "curse.maven:titanium-${titanium_project_id}:${titanium_file_ids}"
+    implementation "curse.maven:replication-${replicator_project_id}:${replicator_file_ids}"
     implementation "mezz.jei:jei-${minecraft_version}-neoforge:${jei_version}"
 }
 
