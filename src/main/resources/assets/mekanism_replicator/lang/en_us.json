@@ -1,0 +1,13 @@
+{
+  "itemGroup.mekanism_replicator": "Example Mod Tab",
+  "block.mekanism_replicator.example_block": "Example Block",
+  "item.mekanism_replicator.example_item": "Example Item",
+
+  "mekanism_replicator.configuration.title": "MekanismReplicator Configs",
+  "mekanism_replicator.configuration.section.mekanism_replicator.common.toml": "MekanismReplicator Configs",
+  "mekanism_replicator.configuration.section.mekanism_replicator.common.toml.title": "MekanismReplicator Configs",
+  "mekanism_replicator.configuration.items": "Item List",
+  "mekanism_replicator.configuration.logDirtBlock": "Log Dirt Block",
+  "mekanism_replicator.configuration.magicNumberIntroduction": "Magic Number Text",
+  "mekanism_replicator.configuration.magicNumber": "Magic Number"
+}
