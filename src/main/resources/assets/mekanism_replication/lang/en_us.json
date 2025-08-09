@@ -1,4 +1,7 @@
 {
   "item.mekanism_replication.dust_replica": "Replica Dust",
-  "item.mekanism_replication.dirty_dust_replica": "Replica Dirty Dust"
+  "item.mekanism_replication.dirty_dust_replica": "Replica Dirty Dust",
+  "item.mekanism_replication.clump_replica": "Replica Clump",
+  "item.mekanism_replication.shard_replica": "Replica Shard",
+  "item.mekanism_replication.crystal_replica": "Replica Crystal"
 }

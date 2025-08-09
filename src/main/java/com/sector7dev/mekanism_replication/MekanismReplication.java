@@ -48,6 +48,9 @@ public class MekanismReplication {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(MRItems.DUST_REPLICA);
             event.accept(MRItems.DIRTY_DUST_REPLICA);
+            event.accept(MRItems.CLUMP_REPLICA);
+            event.accept(MRItems.SHARD_REPLICA);
+            event.accept(MRItems.CRYSTAL_REPLICA);
         }
     }
 
