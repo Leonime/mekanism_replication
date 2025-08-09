@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:washing",
+  "chemical_input": {
+    "amount": 1,
+    "chemical": "mekanism_replication:dirty_replica"
+  },
+  "fluid_input": {
+    "amount": 5,
+    "tag": "minecraft:water"
+  },
+  "output": {
+    "amount": 1,
+    "id": "mekanism_replication:clean_replica"
+  }
+}

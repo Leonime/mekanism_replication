@@ -1,0 +1,8 @@
+{
+  "values": [
+    {
+      "id": "mekanism_replication:clump_replica",
+      "required": false
+    }
+  ]
+}

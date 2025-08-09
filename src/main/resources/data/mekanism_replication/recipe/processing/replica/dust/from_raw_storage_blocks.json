@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "tag": "c:storage_blocks/raw_replica"
+  },
+  "output": {
+    "count": 18,
+    "id": "mekanism_replication:dust_replica"
+  }
+}

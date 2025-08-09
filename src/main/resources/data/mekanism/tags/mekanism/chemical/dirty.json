@@ -1,0 +1,8 @@
+{
+  "values": [
+    {
+      "id": "mekanism_replication:dirty_replica",
+      "required": false
+    }
+  ]
+}

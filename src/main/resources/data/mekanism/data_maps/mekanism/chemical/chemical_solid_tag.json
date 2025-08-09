@@ -1,0 +1,7 @@
+{
+  "values": {
+    "mekanism_replication:clean_replica": {
+      "representation": "c:ores/replica"
+    }
+  }
+}

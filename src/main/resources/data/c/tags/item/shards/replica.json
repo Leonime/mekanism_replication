@@ -1,0 +1,8 @@
+{
+  "values": [
+    {
+      "id": "mekanism_replication:shard_replica",
+      "required": false
+    }
+  ]
+}
