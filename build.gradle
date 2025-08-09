@@ -18,6 +18,7 @@ version = mod_version
 group = mod_group_id
 
 repositories {
+    flatDir { dirs 'libs' }
     // Add here additional repositories if required by some of the dependencies below.
     maven {
         name "JEI"
