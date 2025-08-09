@@ -1,6 +1,7 @@
 package com.sector7dev.mekanism_replication;
 
 import com.mojang.logging.LogUtils;
+import com.sector7dev.mekanism_replication.item.MRCreativeModeTabs;
 import com.sector7dev.mekanism_replication.item.MRItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.bus.api.IEventBus;
@@ -30,6 +31,8 @@ public class MekanismReplication {
         // Note that this is necessary if and only if we want *this* class (MekanismReplicator) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+
+        MRCreativeModeTabs.register(modEventBus);
 
         MRItems.register(modEventBus);
 
