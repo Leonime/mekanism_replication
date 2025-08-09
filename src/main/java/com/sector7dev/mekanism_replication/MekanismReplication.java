@@ -47,6 +47,7 @@ public class MekanismReplication {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(MRItems.DUST_REPLICA);
+            event.accept(MRItems.DIRTY_DUST_REPLICA);
         }
     }
 
