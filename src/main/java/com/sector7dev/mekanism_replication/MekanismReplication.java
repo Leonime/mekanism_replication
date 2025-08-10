@@ -36,25 +36,11 @@ public class MekanismReplication {
 
         MRItems.register(modEventBus);
 
-        // Register the item to a creative tab
-        modEventBus.addListener(this::addCreative);
-
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
-    }
-
-    // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(MRItems.DUST_REPLICA);
-            event.accept(MRItems.DIRTY_DUST_REPLICA);
-            event.accept(MRItems.CLUMP_REPLICA);
-            event.accept(MRItems.SHARD_REPLICA);
-            event.accept(MRItems.CRYSTAL_REPLICA);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
