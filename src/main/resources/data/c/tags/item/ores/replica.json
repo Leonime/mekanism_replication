@@ -1,0 +1,8 @@
+{
+  "values": [
+    {
+      "id": "replication:deepslate_replica_ore",
+      "required": false
+    }
+  ]
+}

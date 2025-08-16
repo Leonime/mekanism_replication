@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "count": 1,
+    "tag": "c:clumps/replica"
+  },
+  "output": {
+    "count": 1,
+    "id": "mekanism_replication:dirty_dust_replica"
+  }
+}

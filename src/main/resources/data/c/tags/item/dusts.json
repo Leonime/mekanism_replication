@@ -1,0 +1,8 @@
+{
+  "values": [
+    {
+      "id": "mekanism_replication:dust_replica",
+      "required": false
+    }
+  ]
+}
