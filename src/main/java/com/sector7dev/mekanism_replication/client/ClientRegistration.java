@@ -26,7 +26,7 @@ public final class ClientRegistration {
         MRItems.DUST_REPLICA.get(),
         MRItems.DIRTY_DUST_REPLICA.get(),
         MRItems.CLUMP_REPLICA.get(),
-        MRItems.SHARD_REPLICA.get());
-//        MRItems.CRYSTAL_REPLICA.get());
+        MRItems.SHARD_REPLICA.get(),
+        MRItems.CRYSTAL_REPLICA.get());
     }
 }

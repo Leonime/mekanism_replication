@@ -21,7 +21,7 @@ public class MRCreativeModeTabs {
                         output.accept(MRItems.DIRTY_DUST_REPLICA);
                         output.accept(MRItems.CLUMP_REPLICA);
                         output.accept(MRItems.SHARD_REPLICA);
-//                        output.accept(MRItems.CRYSTAL_REPLICA);
+                        output.accept(MRItems.CRYSTAL_REPLICA);
                     }))
                     .build());
 

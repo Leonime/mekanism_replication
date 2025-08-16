@@ -1,11 +1,13 @@
 package com.sector7dev.mekanism_replication;
 
 import com.mojang.logging.LogUtils;
+import com.sector7dev.mekanism_replication.chemical.MRSlurries;
 import com.sector7dev.mekanism_replication.item.MRCreativeModeTabs;
 import com.sector7dev.mekanism_replication.item.MRItems;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.ModList;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -31,8 +33,8 @@ public class MekanismReplication {
         NeoForge.EVENT_BUS.register(this);
 
         MRCreativeModeTabs.register(modEventBus);
-
         MRItems.register(modEventBus);
+        MRSlurries.SLURRIES.register(modEventBus);
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
