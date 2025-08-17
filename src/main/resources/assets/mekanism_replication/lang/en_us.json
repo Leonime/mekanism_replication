@@ -4,5 +4,7 @@
   "item.mekanism_replication.clump_replica": "Replica Clump",
   "item.mekanism_replication.shard_replica": "Replica Shard",
   "item.mekanism_replication.crystal_replica": "Replica Crystal",
+  "chemical.mekanism_replication.clean_replica": "Clean Replica Slurry",
+  "chemical.mekanism_replication.dirty_replica": "Dirty Replica Slurry",
   "creative_tab.mekanism_replication.mr_creative_tab": "Mekanism Replication"
 }
